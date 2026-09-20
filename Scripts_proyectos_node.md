@@ -107,3 +107,16 @@ Para asegurarte de que nadie en el equipo vuelva a ejecutar accidentalmente `npm
   }
 }
 ```
+
+## 3.0 Actualización de paquetes
+
+* __Comando principal para visualizar el estado de las versiones de los paquetes:__ `pnpm outdated`
+* Actualizar a la última versión __`pnpm update <nombre dependencia> --latest`__ 
+
+| Acción | Comando |
+| :----- | :-----: |
+| Ver el estado de las versiones de los paquetes | `pnpm outdated` | 
+| Actualizar todos los paquetes automaticamente a la última versión | `pnpm update --latest` |
+| Actualizar todos los paquetes interactivamente (más divertido y visual) | `pnpm update --interactive --latest` |
+
+
