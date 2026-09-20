@@ -5,11 +5,10 @@ Para facilitar la vida de los desarrolladores o asegurar el pipeline de Integrac
 
 ```json
 "scripts": {
-  "doctor": "node scripts/check-env.js",
   "lint": "eslint .",
   "typecheck": "tsc --noEmit",
   "audit": "pnpm audit",
-  "diagnose": "pnpm run doctor && pnpm run audit && pnpm run lint && pnpm run typecheck"
+  "diagnose": "pnpm run audit && pnpm run lint && pnpm run typecheck"
 }
 ```
 
